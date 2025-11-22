@@ -20,7 +20,7 @@ Croppa is a powerful desktop application that intelligently trims silent portion
 **Key Highlights:**
 - 🤖 **AI-Powered**: Uses RMS energy-based algorithm to accurately detect speech vs silence
 - 💻 **100% Offline**: All processing happens locally on your machine - no cloud uploads required
-- ⚡ **GPU Accelerated**: Optional CUDA support for faster audio processing
+- ⚡ **GPU Accelerated**: Optional NVIDIA GPU support (h264_nvenc) for faster video encoding
 - 🎨 **Beautiful UI**: Modern, intuitive dark mode interface built with React and Tailwind CSS
 - 📦 **Cross-Platform**: Built with Electron for Windows, macOS, and Linux support
 
@@ -323,3 +323,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ by the Croppa Team**
 
 [Report Bug](https://github.com/AleksWorkdesk/Croppa/issues) • [Request Feature](https://github.com/AleksWorkdesk/Croppa/issues)
+
