@@ -16,6 +16,9 @@ Automatically remove silent parts from your videos using intelligent audio detec
 ## 📖 Overview
 
 Croppa is a simple desktop application that intelligently trims silent portions from your videos. Perfect for content creators, educators and anyone who spends too much cutting out silent video segments and doesn't want to do that. This is a drag-n-drop, click Process, click Download app with a few settings to adjust the trimming.
+<div align=center> 
+<img width="414" height="147" alt="0" src="https://github.com/user-attachments/assets/9a621ac2-3bd6-4dc9-948f-1c7a88e4bb66" />
+</div>
 
 **Key Highlights:**
 -  **Algorithm-Powered**: Uses RMS energy-based algorithm to accurately detect sounds (speech included) vs silence
@@ -24,6 +27,7 @@ Croppa is a simple desktop application that intelligently trims silent portions 
 -  **Beautiful UI**: Modern, intuitive dark mode interface built with React and Tailwind CSS
 -  **Cross-Platform**: Built with Electron for Windows, macOS, and Linux support
 
+<img width="1183" height="795" alt="1" src="https://github.com/user-attachments/assets/7dbe7c99-c4c9-4a6b-819b-72792d22dbfc" />
 ## ✨ Features
 
 ### Core Functionality
@@ -59,6 +63,8 @@ Before you begin, ensure you have the following installed:
   - Windows: `winget install FFmpeg` or download from [ffmpeg.org](https://ffmpeg.org/download.html)
   - macOS: `brew install ffmpeg`
   - Linux: `sudo apt install ffmpeg` (Ubuntu/Debian)
+<img width="1184" height="780" alt="5" src="https://github.com/user-attachments/assets/f1257487-4bb9-4916-98b4-f275c85fd527" />
+<img width="1185" height="780" alt="4" src="https://github.com/user-attachments/assets/dc09625d-f18e-40fb-8109-6e4c3656dfa4" />
 
 ### Optional
 - **CUDA Toolkit** (for GPU acceleration) - [Download](https://developer.nvidia.com/cuda-downloads)
@@ -156,6 +162,7 @@ The output will be a platform-specific installer:
 3. **Configure Settings** (optional) - Adjust silence detection parameters in the settings panel, but defaults usually work fine
 4. **Process** - Click "Start Processing" and wait for Croppa to crop your video
 5. **Download** - Save your trimmed video and optional metadata/project files
+<img width="1183" height="795" alt="1" src="https://github.com/user-attachments/assets/58b28181-6c5d-485d-b783-f760f999137b" />
 
 ### Settings Panel
 
@@ -168,6 +175,8 @@ Customize the silence detection behavior:
 - **Padding (s)**: Time to keep before/after speech segments (default: 0.25s)
 - **Batch Size**: Number of audio chunks processed at once (affects speed/memory)
 - **Video Quality**: CRF, preset, and bitrate settings for output video
+<img width="1179" height="1039" alt="2" src="https://github.com/user-attachments/assets/d98fde06-9a7d-491b-a8b1-77aab311ac7c" />
+<img width="1180" height="1041" alt="3" src="https://github.com/user-attachments/assets/6a7c0dce-e19f-4d6e-9fbf-f2cadbe8d025" />
 
 ### File Management
 
