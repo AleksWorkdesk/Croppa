@@ -2,7 +2,7 @@
 
 **AI-Powered Desktop Video Trimmer**
 
-Automatically remove silent parts from your videos using advanced voice activity detection
+Automatically remove silent parts from your videos using intelligent audio energy detection
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -15,12 +15,12 @@ Automatically remove silent parts from your videos using advanced voice activity
 
 ## 📖 Overview
 
-Croppa is a powerful desktop application that intelligently trims silent portions from videos using AI-powered voice activity detection. Perfect for content creators, educators, and anyone who wants to streamline their video editing workflow by automatically removing dead air and silence.
+Croppa is a powerful desktop application that intelligently trims silent portions from videos using energy-based voice activity detection. Perfect for content creators, educators, and anyone who wants to streamline their video editing workflow by automatically removing dead air and silence.
 
 **Key Highlights:**
-- 🤖 **AI-Powered**: Uses Silero VAD (Voice Activity Detection) model for accurate speech detection
+- 🤖 **AI-Powered**: Uses RMS energy-based algorithm to accurately detect speech vs silence
 - 💻 **100% Offline**: All processing happens locally on your machine - no cloud uploads required
-- ⚡ **GPU Accelerated**: Optional CUDA support for faster processing
+- ⚡ **GPU Accelerated**: Optional CUDA support for faster audio processing
 - 🎨 **Beautiful UI**: Modern, intuitive dark mode interface built with React and Tailwind CSS
 - 📦 **Cross-Platform**: Built with Electron for Windows, macOS, and Linux support
 
@@ -47,7 +47,7 @@ Croppa is a powerful desktop application that intelligently trims silent portion
 | **Styling** | Tailwind CSS |
 | **Desktop Shell** | Electron 39 |
 | **Backend** | Python 3.10+ + FastAPI |
-| **AI Model** | Silero VAD (PyTorch) |
+| **Audio Processing** | PyTorch (GPU/CPU) |
 | **Video Processing** | FFmpeg |
 
 ## 📋 Prerequisites
@@ -312,7 +312,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Silero VAD](https://github.com/snakers4/silero-vad) - Voice Activity Detection model
+- [PyTorch](https://pytorch.org/) - Audio processing and GPU acceleration
 - [FFmpeg](https://ffmpeg.org/) - Video processing
 - [Electron](https://www.electronjs.org/) - Desktop application framework
 - [FastAPI](https://fastapi.tiangolo.com/) - Backend framework
