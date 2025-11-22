@@ -1,8 +1,8 @@
-# 🎬 Croppa
+# Croppa
 
-**AI-Powered Desktop Video Trimmer**
+**Simple Video Silence Remover**
 
-Automatically remove silent parts from your videos using intelligent audio energy detection
+Automatically remove silent parts from your videos using intelligent audio detection
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -15,29 +15,28 @@ Automatically remove silent parts from your videos using intelligent audio energ
 
 ## 📖 Overview
 
-Croppa is a powerful desktop application that intelligently trims silent portions from videos using energy-based voice activity detection. Perfect for content creators, educators, and anyone who wants to streamline their video editing workflow by automatically removing dead air and silence.
+Croppa is a simple desktop application that intelligently trims silent portions from your videos. Perfect for content creators, educators and anyone who spends too much cutting out silent video segments and doesn't want to do that. This is a drag-n-drop, click Process, click Download app with a few settings to adjust the trimming.
 
 **Key Highlights:**
-- 🤖 **AI-Powered**: Uses RMS energy-based algorithm to accurately detect speech vs silence
-- 💻 **100% Offline**: All processing happens locally on your machine - no cloud uploads required
-- ⚡ **GPU Accelerated**: Optional NVIDIA GPU support (h264_nvenc) for faster video encoding
-- 🎨 **Beautiful UI**: Modern, intuitive dark mode interface built with React and Tailwind CSS
-- 📦 **Cross-Platform**: Built with Electron for Windows, macOS, and Linux support
+-  **Algorithm-Powered**: Uses RMS energy-based algorithm to accurately detect sounds (speech included) vs silence
+-  **100% Offline**: All processing happens locally on your machine - no cloud uploads required
+-  **GPU Accelerated**: Optional NVIDIA GPU support (h264_nvenc) for faster video encoding
+-  **Beautiful UI**: Modern, intuitive dark mode interface built with React and Tailwind CSS
+-  **Cross-Platform**: Built with Electron for Windows, macOS, and Linux support
 
 ## ✨ Features
 
 ### Core Functionality
-- **Smart Silence Detection**: AI model detects and removes silent segments with high accuracy
-- **Multiple Format Support**: Works with `.mp4`, `.mov`, `.m4v`, `.avi`, and more
-- **Customizable Settings**: Adjust silence threshold, minimum silence duration, and padding
-- **Batch Processing**: Process multiple videos efficiently
-- **Project Export**: Export to Shotcut MLT format for further editing
+- **Silence Detection**: Algorithm detects and removes silent segments with high accuracy
+- **Multiple Format Support**: Works with `.mp4`, `.mov`, `.m4v`, `.avi` and more
+- **Customizable Settings**: Adjust silence threshold, minimum silence duration and padding
+- **Project Export**: Export to video or Shotcut MLT format for further editing
+- **File Management**: Built-in file browser and cleanup tools
 
 ### Advanced Options
 - **GPU Acceleration**: Leverage NVIDIA CUDA for faster processing
 - **Quality Control**: Configurable video encoding settings (CRF, preset, bitrate)
 - **Real-time Progress**: Live progress tracking and detailed logs
-- **File Management**: Built-in file browser and cleanup tools
 
 ## 🛠️ Tech Stack
 
@@ -154,8 +153,8 @@ The output will be a platform-specific installer:
 
 1. **Launch Croppa** - Open the application
 2. **Upload Video** - Drag and drop a video file or click to browse
-3. **Configure Settings** (optional) - Adjust silence detection parameters in the settings panel
-4. **Process** - Click "Start Processing" and wait for the AI to analyze your video
+3. **Configure Settings** (optional) - Adjust silence detection parameters in the settings panel, but defaults usually work fine
+4. **Process** - Click "Start Processing" and wait for Croppa to crop your video
 5. **Download** - Save your trimmed video and optional metadata/project files
 
 ### Settings Panel
@@ -175,7 +174,7 @@ Customize the silence detection behavior:
 - **View Files**: Browse uploaded and processed videos
 - **Delete Files**: Remove individual files or clear all files
 - **Open Folders**: Quick access to uploads/outputs directories
-- **Export Projects**: Export timeline to Shotcut MLT format for further editing
+- **Export Projects**: Export timeline to Shotcut MLT format for further editing (Make sure to not delete the video file uploaded to `.../uploads` in app)
 
 ## ⚙️ Configuration
 
@@ -292,35 +291,13 @@ If you encounter issues not listed here:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Development Guidelines
-- Follow existing code style and conventions
-- Add comments for complex logic
-- Test your changes thoroughly
-- Update documentation as needed
+Contributions are super welcome! 
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [PyTorch](https://pytorch.org/) - Audio processing and GPU acceleration
-- [FFmpeg](https://ffmpeg.org/) - Video processing
-- [Electron](https://www.electronjs.org/) - Desktop application framework
-- [FastAPI](https://fastapi.tiangolo.com/) - Backend framework
-- [React](https://react.dev/) - Frontend framework
-
 ---
 
-**Made with ❤️ by the Croppa Team**
-
-[Report Bug](https://github.com/AleksWorkdesk/Croppa/issues) • [Request Feature](https://github.com/AleksWorkdesk/Croppa/issues)
+**Made with ❤️ by Aleks**
 
