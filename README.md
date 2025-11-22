@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🎬 Croppa
 
 **AI-Powered Desktop Video Trimmer**
@@ -12,8 +10,6 @@ Automatically remove silent parts from your videos using advanced voice activity
 [![Electron](https://img.shields.io/badge/Electron-Desktop-47848F.svg)](https://www.electronjs.org/)
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Development](#-development) • [Configuration](#-configuration)
-
-</div>
 
 ---
 
@@ -73,8 +69,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/croppa.git
-cd croppa
+git clone https://github.com/AleksWorkdesk/Croppa.git
+cd Croppa
 ```
 
 ### 2. Install Frontend Dependencies
@@ -324,12 +320,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
 **Made with ❤️ by the Croppa Team**
 
-[Report Bug](https://github.com/yourusername/croppa/issues) • [Request Feature](https://github.com/yourusername/croppa/issues)
-
-</div>
-#   C r o p p a  
- 
+[Report Bug](https://github.com/AleksWorkdesk/Croppa/issues) • [Request Feature](https://github.com/AleksWorkdesk/Croppa/issues)
