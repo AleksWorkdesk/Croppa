@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchaudio
+ffmpeg-python
+numpy
+soundfile
+pyinstaller
+pillow
